@@ -1,3 +1,5 @@
+require 'rack-flash'
+
 class GenresController < ApplicationController
     set :views, "app/views/genres"
 

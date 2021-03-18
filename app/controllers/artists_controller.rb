@@ -1,3 +1,5 @@
+require 'rack-flash'
+
 class ArtistsController < ApplicationController
     set :views, "app/views/artists"
 
